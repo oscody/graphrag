@@ -8,8 +8,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-wcd_url = os.getenv("wcd_url")
-wcd_api_key = os.getenv("wcd_api_key")
 
 import weaviate
 

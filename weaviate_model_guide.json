@@ -1,0 +1,127 @@
+{
+  "grpcMaxMessageSize": 10485760,
+  "hostname": "http://[::]:8080",
+  "modules": {
+    "generative-anthropic": {
+      "documentationHref": "https://docs.anthropic.com/en/api/getting-started",
+      "name": "Generative Search - Anthropic"
+    },
+    "generative-anyscale": {
+      "documentationHref": "https://docs.anyscale.com/endpoints/overview",
+      "name": "Generative Search - Anyscale"
+    },
+    "generative-aws": {
+      "documentationHref": "https://docs.aws.amazon.com/bedrock/latest/APIReference/welcome.html",
+      "name": "Generative Search - AWS"
+    },
+    "generative-cohere": {
+      "documentationHref": "https://docs.cohere.com/reference/chat",
+      "name": "Generative Search - Cohere"
+    },
+    "generative-databricks": {
+      "documentationHref": "https://docs.databricks.com/en/machine-learning/foundation-models/api-reference.html#completion-task",
+      "name": "Generative Search - Databricks"
+    },
+    "generative-friendliai": {
+      "documentationHref": "https://docs.friendli.ai/openapi/create-chat-completions",
+      "name": "Generative Search - FriendliAI"
+    },
+    "generative-google": {
+      "documentationHref": "https://cloud.google.com/vertex-ai/docs/generative-ai/chat/test-chat-prompts",
+      "name": "Generative Search - Google"
+    },
+    "generative-mistral": {
+      "documentationHref": "https://docs.mistral.ai/api/",
+      "name": "Generative Search - Mistral"
+    },
+    "generative-octoai": {
+      "documentationHref": "https://octo.ai/docs/text-gen-solution/getting-started",
+      "name": "Generative Search - OctoAI (deprecated)"
+    },
+    "generative-ollama": {
+      "documentationHref": "https://github.com/ollama/ollama/blob/main/docs/api.md#generate-a-completion",
+      "name": "Generative Search - Ollama"
+    },
+    "generative-openai": {
+      "documentationHref": "https://platform.openai.com/docs/api-reference/completions",
+      "name": "Generative Search - OpenAI"
+    },
+    "multi2vec-cohere": {
+      "documentationHref": "https://docs.cohere.ai/embedding-wiki/",
+      "name": "Cohere Module"
+    },
+    "multi2vec-google": {
+      "documentationHref": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-multimodal-embeddings",
+      "name": "Google Multimodal Module"
+    },
+    "multi2vec-jinaai": {
+      "documentationHref": "https://jina.ai/embeddings/",
+      "name": "JinaAI CLIP Module"
+    },
+    "multi2vec-voyageai": {
+      "documentationHref": "https://docs.voyageai.com/docs/multimodal-embeddings",
+      "name": "VoyageAI Multi Modal Module"
+    },
+    "reranker-cohere": {
+      "documentationHref": "https://txt.cohere.com/rerank/",
+      "name": "Reranker - Cohere"
+    },
+    "reranker-jinaai": {
+      "documentationHref": "https://jina.ai/reranker",
+      "name": "Reranker - Jinaai"
+    },
+    "reranker-voyageai": {
+      "documentationHref": "https://docs.voyageai.com/reference/reranker-api",
+      "name": "Reranker - VoyageAI"
+    },
+    "text2vec-aws": {
+      "documentationHref": "https://docs.aws.amazon.com/bedrock/latest/userguide/titan-embedding-models.html",
+      "name": "AWS Module"
+    },
+    "text2vec-cohere": {
+      "documentationHref": "https://docs.cohere.ai/embedding-wiki/",
+      "name": "Cohere Module"
+    },
+    "text2vec-databricks": {
+      "documentationHref": "https://docs.databricks.com/en/machine-learning/foundation-models/api-reference.html#embedding-task",
+      "name": "Databricks Foundation Models Module - Embeddings"
+    },
+    "text2vec-google": {
+      "documentationHref": "https://cloud.google.com/vertex-ai/docs/generative-ai/embeddings/get-text-embeddings",
+      "name": "Google Module"
+    },
+    "text2vec-huggingface": {
+      "documentationHref": "https://huggingface.co/docs/api-inference/detailed_parameters#feature-extraction-task",
+      "name": "Hugging Face Module"
+    },
+    "text2vec-jinaai": {
+      "documentationHref": "https://jina.ai/embeddings/",
+      "name": "JinaAI Module"
+    },
+    "text2vec-mistral": {
+      "documentationHref": "https://docs.mistral.ai/api/#operation/createEmbedding",
+      "name": "Mistral Module"
+    },
+    "text2vec-octoai": {
+      "documentationHref": "https://octo.ai/docs/text-gen-solution/getting-started",
+      "name": "OctoAI Module (deprecated)"
+    },
+    "text2vec-ollama": {
+      "documentationHref": "https://github.com/ollama/ollama/blob/main/docs/api.md#generate-embeddings",
+      "name": "Ollama Module"
+    },
+    "text2vec-openai": {
+      "documentationHref": "https://platform.openai.com/docs/guides/embeddings/what-are-embeddings",
+      "name": "OpenAI Module"
+    },
+    "text2vec-voyageai": {
+      "documentationHref": "https://docs.voyageai.com/docs/embeddings",
+      "name": "VoyageAI Module"
+    },
+    "text2vec-weaviate": {
+      "documentationHref": "https://api.embedding.weaviate.io",
+      "name": "Weaviate Embedding Module"
+    }
+  },
+  "version": "1.28.2"
+}
