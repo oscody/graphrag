@@ -14,3 +14,7 @@ docker-compose up -d
 
 
 python3 weaviate_local_test.py 
+
+
+
+Semantic search using KG
